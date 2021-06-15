@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import SearchResult from './SearchResult';
 const Search = () => {
 
     const [image, setImage] = useState("");
@@ -12,9 +12,10 @@ const Search = () => {
 
     return (
         <>
-        <div className="searchbar">
-        <input className="searchbar_input" type="text" onChange={inputEvent} value={image} placeholder="Search anything" />
-        </div>
+            <div className="searchbar">
+                <input className="searchbar_input" type="text" onChange={inputEvent} value={image} placeholder="Search anything" />
+                <SearchResult />
+            </div>
         </>
     )
 }

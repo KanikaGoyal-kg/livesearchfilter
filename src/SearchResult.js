@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchResult = () => {
 
-    const img = `https://source.unsplash.com/user/erondu/1600*900`;
+    const img = `https://source.unsplash.com/600*400/?mango`;
 
     return (
         <>
