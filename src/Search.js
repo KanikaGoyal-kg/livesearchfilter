@@ -4,15 +4,9 @@ const Search = () => {
 
     return (
         <>
-        <div>hii</div>
-        <div>hii</div>
-        <div>hii</div>
-        <div>hii</div>
-        <div>hii</div>
-        <div>hii</div>
-        <div>hii</div>
-        <div>hii</div>
-
+        <div className="searchbar">
+        <input className="searchbar_input" type="text" placeholder="Search anything" />
+        </div>
         </>
     )
 }
