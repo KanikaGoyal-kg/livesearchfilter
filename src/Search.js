@@ -14,7 +14,7 @@ const Search = () => {
         <>
             <div className="searchbar">
                 <input className="searchbar_input" type="text" onChange={inputEvent} value={image} placeholder="Search anything" />
-                <SearchResult />
+                <SearchResult name={image} />
             </div>
         </>
     )
